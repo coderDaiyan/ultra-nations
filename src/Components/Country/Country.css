@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+.country {
+  text-align: center;
+  font-family: "Arvo", sans-serif;
+  background-color: #1795cc;
+  color: white;
+  width: 350px;
+  height: 450px;
+  padding: 20px;
+  margin: 20px;
+  border: 6px solid black;
+  border-radius: 1em;
+  transition: all 0.2s ease;
+}
+.country:hover {
+  background-color: #00c0f7;
+}
+.country img {
+  width: 270px !important;
+  border: 3px solid blue;
+}
+
+@media (max-width: 454px) {
+  .country {
+    width: 100px;
+    font-size: 5px;
+  }
+  .country img {
+    width: 50px !important;
+  }
+}

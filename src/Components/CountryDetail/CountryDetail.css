@@ -1,0 +1,15 @@
+.details {
+  background-color: #4c67ff;
+  color: #7cdeff;
+  width: 900px;
+  height: 650px;
+  padding: 20px;
+  margin: 20px;
+  border: 8px solid #444eff;
+  border-radius: 1.5em;
+}
+.details img {
+  width: 270px !important;
+  border: 5px solid #03244a;
+  border-radius: 12px;
+}
